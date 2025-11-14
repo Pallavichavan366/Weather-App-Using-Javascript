@@ -1,0 +1,127 @@
+body{
+  text-align: center;
+  background-color:rgba(0, 0, 0, 0.738);
+}
+.card{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.wether-card{
+   position: relative;
+   z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 650px;
+  max-height: 650px;
+  background:linear-gradient(135deg,#00feba,#5b548a);
+  align-items: center;
+  height: 100%;
+  border-radius: 20px;
+   margin-top: 20px;
+
+}
+.wether-card::before{
+  content: " ";
+  background-color: rgb(0, 0, 0);
+  position: absolute;
+
+}
+
+
+.search{
+  display: flex;
+  margin-top: 20px;
+  
+}
+.search img{
+  border-radius: 50%;
+   border-radius: 20px solid black;
+   /* margin: 5px 5px 5px 5px; */
+}
+.search input{
+  border: 0;
+  outline: 0;
+  background:#ebfffc;
+  color: #555;
+  padding: 10px 25px;
+  margin: 0;
+  height: 60px;
+  border-radius: 30px;
+  flex: 1;
+  margin-right: 16px;
+  font-size: 18px;
+  text-align: center;
+}
+.search button{
+  margin: 0;
+  outline: 0;
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.tempreture  h1{
+  font-size: 30px;
+  color: white;
+}
+.info{
+  display: flex;
+}
+.details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.col img{
+  width: 50px;
+}
+.col{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.image{
+  position: relative;
+
+
+  
+}
+.image::before{
+  background-color: black;
+  background-repeat: no-repeat;
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.35;
+
+}
+.tempreture h1{
+
+  font-size: 40px;
+}
+
+.tempreture  h2{
+  font-size: 50px;
+  color: white;
+}
+.image{
+  display: none;
+}
+.error{
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+}
